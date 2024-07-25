@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/index.css">
+    <title>Birthday Reminder</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <h2 class="card-heading">
+                    Get started
+                    <small>Let us keep track and celebrate your birthday</small>
+                </h2>
+            </div>
+            <form method="POST" action="/send" class="card-form">
+                <div class="input">
+                    <input type="text" class="input-field" name="username" required />
+                    <label class="input-label">Full name</label>
+                </div>
+                <div class="input">
+                    <input type="email" class="input-field" name="email" required />
+                    <label class="input-label">Email</label>
+                </div>
+                <div class="input">
+                    <input type="date" class="input-label-1" id="dob" name="dob" required />
+                    <label for="dob" class="input-label-1">Date Of Birth</label>
+                </div>
+                <div class="action">
+                    <button type="submit" class="action-button">Submit</button>
+                </div>
+            </form>
+            <div class="card-info">
+                <p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
