@@ -65,7 +65,7 @@ const start = async () => {
         })
 
 
-        cron.schedule('0 7 * * *', async () => { // Run every day at 7am
+        cron.schedule('0 7 * * *', async () => {
             try {
                 // Use the timezone for Nigeria
                 const timezone = 'Africa/Lagos';
@@ -84,6 +84,7 @@ const start = async () => {
                         $lt: endOfDay
                     }
                 });
+
                 if (users.length === 0) {
                     console.log('No users with birthdays today.');
                 } else {
@@ -98,6 +99,8 @@ const start = async () => {
             } catch (error) {
                 console.error('Error in cron job:', error);
             }
+        }, {
+            timezone: 'Africa/Lagos'
         });
 
     } catch (error) {
