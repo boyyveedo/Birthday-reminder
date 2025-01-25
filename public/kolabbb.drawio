@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="26.0.8">
+  <diagram name="Page-1" id="eNIveKmUOV_GZKLly9Ux">
+    <mxGraphModel dx="2044" dy="1897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-7" target="a8C9NgeW3urR7O4vzKt4-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="10" as="sourcePoint" />
+            <mxPoint x="370" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-1" value="Frontend (UI)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFFFFF);fontSize=18;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-10" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-8" target="a8C9NgeW3urR7O4vzKt4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-33" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a8C9NgeW3urR7O4vzKt4-16">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-8" target="a8C9NgeW3urR7O4vzKt4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-8" value="&lt;b&gt;Authentication&lt;/b&gt;&lt;div&gt;&lt;b&gt;(JWT, OAuth)&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-7" value="API Gateway&lt;div&gt;-Routes API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-19" target="a8C9NgeW3urR7O4vzKt4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-19" value="&lt;b&gt;User Module&lt;/b&gt;&lt;div&gt;-User &lt;b&gt;CRUD&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;-user Roles (Talents, Creatives)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-27" target="a8C9NgeW3urR7O4vzKt4-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-27" value="&lt;b&gt;Messaging Module&lt;/b&gt;&lt;div&gt;- Real-time Messaging&lt;/div&gt;&lt;div&gt;-file Uploads&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="495" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-29" target="a8C9NgeW3urR7O4vzKt4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="525" as="targetPoint" />
+            <mxPoint x="90" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-29" value="&lt;b&gt;Jobs Module&lt;/b&gt;&lt;div&gt;- Create/Update&lt;/div&gt;&lt;div&gt;- Search/ Filter&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="495" width="210" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-670" y="570" as="sourcePoint" />
+            <mxPoint x="-620" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a8C9NgeW3urR7O4vzKt4-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-40" value="&lt;b&gt;Notification Module&lt;/b&gt;&lt;div&gt;- In-App Alerts&lt;/div&gt;&lt;div&gt;- Email/push&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="640" width="190" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="a8C9NgeW3urR7O4vzKt4-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
